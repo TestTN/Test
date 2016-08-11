@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Vending Machine
+//
+//  Created by Nurov Timur Dauletovich on 11/08/16.
+//  Copyright © 2016 123. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "UIFont+VM.h"
+#import "VMNames.h"
+#import "VMUtil.h"
+
+#endif

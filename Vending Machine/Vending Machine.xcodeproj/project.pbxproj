@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6012F89D1D5BBFEC0008F2AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F89C1D5BBFEC0008F2AB /* main.m */; };
+		6012F8A01D5BBFEC0008F2AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F89F1D5BBFEC0008F2AB /* AppDelegate.m */; };
+		6012F8A61D5BBFEC0008F2AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012F8A41D5BBFEC0008F2AB /* Main.storyboard */; };
+		6012F8A81D5BBFEC0008F2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6012F8A71D5BBFEC0008F2AB /* Assets.xcassets */; };
+		6012F8AB1D5BBFEC0008F2AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012F8A91D5BBFEC0008F2AB /* LaunchScreen.storyboard */; };
+		6012F8CA1D5BC41D0008F2AB /* VMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8C71D5BC41D0008F2AB /* VMMainViewController.m */; };
+		6012F8CD1D5BC8E50008F2AB /* VMBaseItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8CC1D5BC8E50008F2AB /* VMBaseItemModel.m */; };
+		6012F8D01D5BC9A30008F2AB /* VMCoinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8CF1D5BC9A30008F2AB /* VMCoinModel.m */; };
+		6012F8D31D5BC9DC0008F2AB /* VMProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8D21D5BC9DC0008F2AB /* VMProductModel.m */; };
+		6012F8D61D5BCCE50008F2AB /* VMPurseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8D51D5BCCE50008F2AB /* VMPurseModel.m */; };
+		6012F8D91D5BCE160008F2AB /* VMVendingMachineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8D81D5BCE160008F2AB /* VMVendingMachineModel.m */; };
+		6012F8DC1D5BD0520008F2AB /* VMStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8DB1D5BD0520008F2AB /* VMStockModel.m */; };
+		6012F8DF1D5BD0C30008F2AB /* VMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8DE1D5BD0C30008F2AB /* VMBaseModel.m */; };
+		6012F8E31D5BD5160008F2AB /* VMVendingMachinePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8E21D5BD5160008F2AB /* VMVendingMachinePresenter.m */; };
+		6012F8E61D5BD60A0008F2AB /* VMPurseInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8E51D5BD60A0008F2AB /* VMPurseInfoView.m */; };
+		6012F8E91D5BD6F70008F2AB /* VMCoinsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8E81D5BD6F70008F2AB /* VMCoinsPanelView.m */; };
+		6012F8EC1D5BD7150008F2AB /* VMStockPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8EB1D5BD7150008F2AB /* VMStockPanelView.m */; };
+		6012F8EF1D5BD84D0008F2AB /* VMStockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8EE1D5BD84D0008F2AB /* VMStockInfoView.m */; };
+		6012F8F21D5BD9380008F2AB /* VMDepositeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8F11D5BD9380008F2AB /* VMDepositeInfoView.m */; };
+		6012F8F81D5BE12C0008F2AB /* UIColor+VM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8F71D5BE12C0008F2AB /* UIColor+VM.m */; };
+		6012F8FB1D5BE2940008F2AB /* UIFont+VM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8FA1D5BE2940008F2AB /* UIFont+VM.m */; };
+		6012F8FE1D5BF5710008F2AB /* VMControlPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F8FD1D5BF5710008F2AB /* VMControlPanelView.m */; };
+		6012F9081D5C676B0008F2AB /* VMStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F9071D5C676B0008F2AB /* VMStorageManager.m */; };
+		6012F90B1D5C69CB0008F2AB /* VMNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F90A1D5C69CB0008F2AB /* VMNames.m */; };
+		6012F90E1D5CA1160008F2AB /* VMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F90D1D5CA1160008F2AB /* VMUtil.m */; };
+		6012F9111D5CFD820008F2AB /* VMItemsStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F9101D5CFD820008F2AB /* VMItemsStorageModel.m */; };
+		6012F9151D5D027B0008F2AB /* VMBaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F9141D5D027B0008F2AB /* VMBaseProvider.m */; };
+		6012F9181D5D02FB0008F2AB /* VMOfflineUserPurseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F9171D5D02FB0008F2AB /* VMOfflineUserPurseProvider.m */; };
+		6012F91B1D5D031D0008F2AB /* VMOfflineVendingMachineProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012F91A1D5D031D0008F2AB /* VMOfflineVendingMachineProvider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6012F8981D5BBFEC0008F2AB /* Vending Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vending Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6012F89C1D5BBFEC0008F2AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6012F89E1D5BBFEC0008F2AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6012F89F1D5BBFEC0008F2AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6012F8A51D5BBFEC0008F2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6012F8A71D5BBFEC0008F2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6012F8AA1D5BBFEC0008F2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6012F8AC1D5BBFEC0008F2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6012F8C61D5BC41D0008F2AB /* VMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMainViewController.h; sourceTree = "<group>"; };
+		6012F8C71D5BC41D0008F2AB /* VMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMainViewController.m; sourceTree = "<group>"; };
+		6012F8CB1D5BC8E50008F2AB /* VMBaseItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBaseItemModel.h; sourceTree = "<group>"; };
+		6012F8CC1D5BC8E50008F2AB /* VMBaseItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseItemModel.m; sourceTree = "<group>"; };
+		6012F8CE1D5BC9A30008F2AB /* VMCoinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCoinModel.h; sourceTree = "<group>"; };
+		6012F8CF1D5BC9A30008F2AB /* VMCoinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCoinModel.m; sourceTree = "<group>"; };
+		6012F8D11D5BC9DC0008F2AB /* VMProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMProductModel.h; sourceTree = "<group>"; };
+		6012F8D21D5BC9DC0008F2AB /* VMProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMProductModel.m; sourceTree = "<group>"; };
+		6012F8D41D5BCCE50008F2AB /* VMPurseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPurseModel.h; sourceTree = "<group>"; };
+		6012F8D51D5BCCE50008F2AB /* VMPurseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPurseModel.m; sourceTree = "<group>"; };
+		6012F8D71D5BCE160008F2AB /* VMVendingMachineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMVendingMachineModel.h; sourceTree = "<group>"; };
+		6012F8D81D5BCE160008F2AB /* VMVendingMachineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMVendingMachineModel.m; sourceTree = "<group>"; };
+		6012F8DA1D5BD0520008F2AB /* VMStockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStockModel.h; sourceTree = "<group>"; };
+		6012F8DB1D5BD0520008F2AB /* VMStockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStockModel.m; sourceTree = "<group>"; };
+		6012F8DD1D5BD0C30008F2AB /* VMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBaseModel.h; sourceTree = "<group>"; };
+		6012F8DE1D5BD0C30008F2AB /* VMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseModel.m; sourceTree = "<group>"; };
+		6012F8E11D5BD5160008F2AB /* VMVendingMachinePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMVendingMachinePresenter.h; sourceTree = "<group>"; };
+		6012F8E21D5BD5160008F2AB /* VMVendingMachinePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMVendingMachinePresenter.m; sourceTree = "<group>"; };
+		6012F8E41D5BD60A0008F2AB /* VMPurseInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPurseInfoView.h; sourceTree = "<group>"; };
+		6012F8E51D5BD60A0008F2AB /* VMPurseInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPurseInfoView.m; sourceTree = "<group>"; };
+		6012F8E71D5BD6F70008F2AB /* VMCoinsPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCoinsPanelView.h; sourceTree = "<group>"; };
+		6012F8E81D5BD6F70008F2AB /* VMCoinsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCoinsPanelView.m; sourceTree = "<group>"; };
+		6012F8EA1D5BD7150008F2AB /* VMStockPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStockPanelView.h; sourceTree = "<group>"; };
+		6012F8EB1D5BD7150008F2AB /* VMStockPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStockPanelView.m; sourceTree = "<group>"; };
+		6012F8ED1D5BD84D0008F2AB /* VMStockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStockInfoView.h; sourceTree = "<group>"; };
+		6012F8EE1D5BD84D0008F2AB /* VMStockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStockInfoView.m; sourceTree = "<group>"; };
+		6012F8F01D5BD9380008F2AB /* VMDepositeInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMDepositeInfoView.h; sourceTree = "<group>"; };
+		6012F8F11D5BD9380008F2AB /* VMDepositeInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMDepositeInfoView.m; sourceTree = "<group>"; };
+		6012F8F51D5BE0B80008F2AB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6012F8F61D5BE12C0008F2AB /* UIColor+VM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VM.h"; sourceTree = "<group>"; };
+		6012F8F71D5BE12C0008F2AB /* UIColor+VM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VM.m"; sourceTree = "<group>"; };
+		6012F8F91D5BE2940008F2AB /* UIFont+VM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+VM.h"; sourceTree = "<group>"; };
+		6012F8FA1D5BE2940008F2AB /* UIFont+VM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+VM.m"; sourceTree = "<group>"; };
+		6012F8FC1D5BF5710008F2AB /* VMControlPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMControlPanelView.h; sourceTree = "<group>"; };
+		6012F8FD1D5BF5710008F2AB /* VMControlPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMControlPanelView.m; sourceTree = "<group>"; };
+		6012F9001D5C5B730008F2AB /* VMViewProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMViewProtocols.h; sourceTree = "<group>"; };
+		6012F9031D5C5B840008F2AB /* VMPresenterProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPresenterProtocols.h; sourceTree = "<group>"; };
+		6012F9061D5C676B0008F2AB /* VMStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMStorageManager.h; sourceTree = "<group>"; };
+		6012F9071D5C676B0008F2AB /* VMStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMStorageManager.m; sourceTree = "<group>"; };
+		6012F9091D5C69CB0008F2AB /* VMNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMNames.h; sourceTree = "<group>"; };
+		6012F90A1D5C69CB0008F2AB /* VMNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMNames.m; sourceTree = "<group>"; };
+		6012F90C1D5CA1160008F2AB /* VMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMUtil.h; sourceTree = "<group>"; };
+		6012F90D1D5CA1160008F2AB /* VMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUtil.m; sourceTree = "<group>"; };
+		6012F90F1D5CFD820008F2AB /* VMItemsStorageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMItemsStorageModel.h; sourceTree = "<group>"; };
+		6012F9101D5CFD820008F2AB /* VMItemsStorageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMItemsStorageModel.m; sourceTree = "<group>"; };
+		6012F9131D5D027B0008F2AB /* VMBaseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBaseProvider.h; sourceTree = "<group>"; };
+		6012F9141D5D027B0008F2AB /* VMBaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseProvider.m; sourceTree = "<group>"; };
+		6012F9161D5D02FB0008F2AB /* VMOfflineUserPurseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMOfflineUserPurseProvider.h; sourceTree = "<group>"; };
+		6012F9171D5D02FB0008F2AB /* VMOfflineUserPurseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMOfflineUserPurseProvider.m; sourceTree = "<group>"; };
+		6012F9191D5D031D0008F2AB /* VMOfflineVendingMachineProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMOfflineVendingMachineProvider.h; sourceTree = "<group>"; };
+		6012F91A1D5D031D0008F2AB /* VMOfflineVendingMachineProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMOfflineVendingMachineProvider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6012F8951D5BBFEC0008F2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6012F88F1D5BBFEC0008F2AB = {
+			isa = PBXGroup;
+			children = (
+				6012F89A1D5BBFEC0008F2AB /* Vending Machine */,
+				6012F8991D5BBFEC0008F2AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6012F8991D5BBFEC0008F2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8981D5BBFEC0008F2AB /* Vending Machine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6012F89A1D5BBFEC0008F2AB /* Vending Machine */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8BD1D5BC41D0008F2AB /* Classes */,
+				6012F89E1D5BBFEC0008F2AB /* AppDelegate.h */,
+				6012F89F1D5BBFEC0008F2AB /* AppDelegate.m */,
+				6012F8A41D5BBFEC0008F2AB /* Main.storyboard */,
+				6012F8A71D5BBFEC0008F2AB /* Assets.xcassets */,
+				6012F8A91D5BBFEC0008F2AB /* LaunchScreen.storyboard */,
+				6012F8AC1D5BBFEC0008F2AB /* Info.plist */,
+				6012F89B1D5BBFEC0008F2AB /* Supporting Files */,
+			);
+			path = "Vending Machine";
+			sourceTree = "<group>";
+		};
+		6012F89B1D5BBFEC0008F2AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6012F89C1D5BBFEC0008F2AB /* main.m */,
+				6012F8F51D5BE0B80008F2AB /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6012F8BD1D5BC41D0008F2AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8FF1D5C5B5F0008F2AB /* Protocols */,
+				6012F8E01D5BD1A00008F2AB /* Presenters */,
+				6012F8BE1D5BC41D0008F2AB /* Managers */,
+				6012F8BF1D5BC41D0008F2AB /* Models */,
+				6012F8C01D5BC41D0008F2AB /* Providers */,
+				6012F8C21D5BC41D0008F2AB /* UI */,
+				6012F8C91D5BC41D0008F2AB /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6012F8BE1D5BC41D0008F2AB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6012F9061D5C676B0008F2AB /* VMStorageManager.h */,
+				6012F9071D5C676B0008F2AB /* VMStorageManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6012F8BF1D5BC41D0008F2AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8DD1D5BD0C30008F2AB /* VMBaseModel.h */,
+				6012F8DE1D5BD0C30008F2AB /* VMBaseModel.m */,
+				6012F8CB1D5BC8E50008F2AB /* VMBaseItemModel.h */,
+				6012F8CC1D5BC8E50008F2AB /* VMBaseItemModel.m */,
+				6012F8CE1D5BC9A30008F2AB /* VMCoinModel.h */,
+				6012F8CF1D5BC9A30008F2AB /* VMCoinModel.m */,
+				6012F8D11D5BC9DC0008F2AB /* VMProductModel.h */,
+				6012F8D21D5BC9DC0008F2AB /* VMProductModel.m */,
+				6012F90F1D5CFD820008F2AB /* VMItemsStorageModel.h */,
+				6012F9101D5CFD820008F2AB /* VMItemsStorageModel.m */,
+				6012F8D41D5BCCE50008F2AB /* VMPurseModel.h */,
+				6012F8D51D5BCCE50008F2AB /* VMPurseModel.m */,
+				6012F8DA1D5BD0520008F2AB /* VMStockModel.h */,
+				6012F8DB1D5BD0520008F2AB /* VMStockModel.m */,
+				6012F8D71D5BCE160008F2AB /* VMVendingMachineModel.h */,
+				6012F8D81D5BCE160008F2AB /* VMVendingMachineModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6012F8C01D5BC41D0008F2AB /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				6012F9121D5D025F0008F2AB /* OfflineProvider */,
+				6012F9131D5D027B0008F2AB /* VMBaseProvider.h */,
+				6012F9141D5D027B0008F2AB /* VMBaseProvider.m */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		6012F8C21D5BC41D0008F2AB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8C51D5BC41D0008F2AB /* ViewControllers */,
+				6012F8C81D5BC41D0008F2AB /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6012F8C51D5BC41D0008F2AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8C61D5BC41D0008F2AB /* VMMainViewController.h */,
+				6012F8C71D5BC41D0008F2AB /* VMMainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6012F8C81D5BC41D0008F2AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8F01D5BD9380008F2AB /* VMDepositeInfoView.h */,
+				6012F8F11D5BD9380008F2AB /* VMDepositeInfoView.m */,
+				6012F8E41D5BD60A0008F2AB /* VMPurseInfoView.h */,
+				6012F8E51D5BD60A0008F2AB /* VMPurseInfoView.m */,
+				6012F8ED1D5BD84D0008F2AB /* VMStockInfoView.h */,
+				6012F8EE1D5BD84D0008F2AB /* VMStockInfoView.m */,
+				6012F8E71D5BD6F70008F2AB /* VMCoinsPanelView.h */,
+				6012F8E81D5BD6F70008F2AB /* VMCoinsPanelView.m */,
+				6012F8EA1D5BD7150008F2AB /* VMStockPanelView.h */,
+				6012F8EB1D5BD7150008F2AB /* VMStockPanelView.m */,
+				6012F8FC1D5BF5710008F2AB /* VMControlPanelView.h */,
+				6012F8FD1D5BF5710008F2AB /* VMControlPanelView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6012F8C91D5BC41D0008F2AB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8F61D5BE12C0008F2AB /* UIColor+VM.h */,
+				6012F8F71D5BE12C0008F2AB /* UIColor+VM.m */,
+				6012F8F91D5BE2940008F2AB /* UIFont+VM.h */,
+				6012F8FA1D5BE2940008F2AB /* UIFont+VM.m */,
+				6012F9091D5C69CB0008F2AB /* VMNames.h */,
+				6012F90A1D5C69CB0008F2AB /* VMNames.m */,
+				6012F90C1D5CA1160008F2AB /* VMUtil.h */,
+				6012F90D1D5CA1160008F2AB /* VMUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6012F8E01D5BD1A00008F2AB /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				6012F8E11D5BD5160008F2AB /* VMVendingMachinePresenter.h */,
+				6012F8E21D5BD5160008F2AB /* VMVendingMachinePresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		6012F8FF1D5C5B5F0008F2AB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6012F9001D5C5B730008F2AB /* VMViewProtocols.h */,
+				6012F9031D5C5B840008F2AB /* VMPresenterProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6012F9121D5D025F0008F2AB /* OfflineProvider */ = {
+			isa = PBXGroup;
+			children = (
+				6012F9161D5D02FB0008F2AB /* VMOfflineUserPurseProvider.h */,
+				6012F9171D5D02FB0008F2AB /* VMOfflineUserPurseProvider.m */,
+				6012F9191D5D031D0008F2AB /* VMOfflineVendingMachineProvider.h */,
+				6012F91A1D5D031D0008F2AB /* VMOfflineVendingMachineProvider.m */,
+			);
+			path = OfflineProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6012F8971D5BBFEC0008F2AB /* Vending Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6012F8AF1D5BBFEC0008F2AB /* Build configuration list for PBXNativeTarget "Vending Machine" */;
+			buildPhases = (
+				6012F8941D5BBFEC0008F2AB /* Sources */,
+				6012F8951D5BBFEC0008F2AB /* Frameworks */,
+				6012F8961D5BBFEC0008F2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vending Machine";
+			productName = "Vending Machine";
+			productReference = 6012F8981D5BBFEC0008F2AB /* Vending Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6012F8901D5BBFEC0008F2AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					6012F8971D5BBFEC0008F2AB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6012F8931D5BBFEC0008F2AB /* Build configuration list for PBXProject "Vending Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6012F88F1D5BBFEC0008F2AB;
+			productRefGroup = 6012F8991D5BBFEC0008F2AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6012F8971D5BBFEC0008F2AB /* Vending Machine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6012F8961D5BBFEC0008F2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012F8AB1D5BBFEC0008F2AB /* LaunchScreen.storyboard in Resources */,
+				6012F8A81D5BBFEC0008F2AB /* Assets.xcassets in Resources */,
+				6012F8A61D5BBFEC0008F2AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6012F8941D5BBFEC0008F2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6012F90B1D5C69CB0008F2AB /* VMNames.m in Sources */,
+				6012F8F81D5BE12C0008F2AB /* UIColor+VM.m in Sources */,
+				6012F8D91D5BCE160008F2AB /* VMVendingMachineModel.m in Sources */,
+				6012F8DF1D5BD0C30008F2AB /* VMBaseModel.m in Sources */,
+				6012F8D61D5BCCE50008F2AB /* VMPurseModel.m in Sources */,
+				6012F8D01D5BC9A30008F2AB /* VMCoinModel.m in Sources */,
+				6012F9181D5D02FB0008F2AB /* VMOfflineUserPurseProvider.m in Sources */,
+				6012F8FB1D5BE2940008F2AB /* UIFont+VM.m in Sources */,
+				6012F8A01D5BBFEC0008F2AB /* AppDelegate.m in Sources */,
+				6012F90E1D5CA1160008F2AB /* VMUtil.m in Sources */,
+				6012F8FE1D5BF5710008F2AB /* VMControlPanelView.m in Sources */,
+				6012F91B1D5D031D0008F2AB /* VMOfflineVendingMachineProvider.m in Sources */,
+				6012F9081D5C676B0008F2AB /* VMStorageManager.m in Sources */,
+				6012F8E61D5BD60A0008F2AB /* VMPurseInfoView.m in Sources */,
+				6012F9151D5D027B0008F2AB /* VMBaseProvider.m in Sources */,
+				6012F9111D5CFD820008F2AB /* VMItemsStorageModel.m in Sources */,
+				6012F8F21D5BD9380008F2AB /* VMDepositeInfoView.m in Sources */,
+				6012F8E31D5BD5160008F2AB /* VMVendingMachinePresenter.m in Sources */,
+				6012F8EC1D5BD7150008F2AB /* VMStockPanelView.m in Sources */,
+				6012F8E91D5BD6F70008F2AB /* VMCoinsPanelView.m in Sources */,
+				6012F8CA1D5BC41D0008F2AB /* VMMainViewController.m in Sources */,
+				6012F89D1D5BBFEC0008F2AB /* main.m in Sources */,
+				6012F8EF1D5BD84D0008F2AB /* VMStockInfoView.m in Sources */,
+				6012F8D31D5BC9DC0008F2AB /* VMProductModel.m in Sources */,
+				6012F8CD1D5BC8E50008F2AB /* VMBaseItemModel.m in Sources */,
+				6012F8DC1D5BD0520008F2AB /* VMStockModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6012F8A41D5BBFEC0008F2AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6012F8A51D5BBFEC0008F2AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6012F8A91D5BBFEC0008F2AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6012F8AA1D5BBFEC0008F2AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6012F8AD1D5BBFEC0008F2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6012F8AE1D5BBFEC0008F2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6012F8B01D5BBFEC0008F2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "Vending Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timur-Nurov.Vending-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6012F8B11D5BBFEC0008F2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "Vending Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timur-Nurov.Vending-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6012F8931D5BBFEC0008F2AB /* Build configuration list for PBXProject "Vending Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012F8AD1D5BBFEC0008F2AB /* Debug */,
+				6012F8AE1D5BBFEC0008F2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6012F8AF1D5BBFEC0008F2AB /* Build configuration list for PBXNativeTarget "Vending Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6012F8B01D5BBFEC0008F2AB /* Debug */,
+				6012F8B11D5BBFEC0008F2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6012F8901D5BBFEC0008F2AB /* Project object */;
+}
